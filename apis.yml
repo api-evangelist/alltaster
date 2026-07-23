@@ -1,7 +1,25 @@
 aid: alltaster
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alltaster.png
 name: AllTaster
-description: AllTaster is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'AllTaster Limited (trading as Taster) is a UK-registered, digital-first
+  food-brand creator that imagines and operates virtual and physical restaurant concepts
+  in collaboration with chefs, creators, and franchise partners, distributed largely
+  through third-party delivery apps and its own consumer mobile apps. Its brand portfolio
+  includes Pepe Chicken, Out Fry, La Vie Dirty Burgers, Sheesh!, and others. As of
+  this enrichment pass the company publishes no public developer API, SDKs, OpenAPI,
+  developer portal, or technical documentation, so no API artifacts could be searched,
+  generated, or derived; this profile captures verified company identity only.'
 url: https://raw.githubusercontent.com/api-evangelist/alltaster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,31 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-has-public-api: false
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Food
+- Food Delivery
+- Restaurants
+- Virtual Restaurants
+- Food Tech
+- Consumer
+- Franchise
+- Mobile Apps
 apis: []
+common:
+- type: Website
+  url: https://www.taster.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
